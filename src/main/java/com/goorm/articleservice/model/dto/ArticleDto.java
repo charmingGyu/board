@@ -4,6 +4,7 @@ import com.goorm.articleservice.repository.entity.Article;
 import lombok.*;
 
 @Data
+@EqualsAndHashCode(callSuper=false)
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor

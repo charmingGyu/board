@@ -3,15 +3,13 @@ package com.goorm.articleservice.model.result;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.goorm.articleservice.repository.entity.Article;
 import com.goorm.articleservice.repository.entity.Comment;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Data
+@EqualsAndHashCode(callSuper=false)
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
